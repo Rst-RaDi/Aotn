@@ -64,5 +64,5 @@ if (test_number_of_adapters()==True):
 		print("You Are Connect To WiFi")
 		main()
 else:
-	print("You Must 2 Adapter")	
+	print("You Must 2 Adapters")	
 
