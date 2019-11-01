@@ -1,8 +1,5 @@
 import os,subprocess
 from getpass import getpass
-print("*"*36)
-print("# This App Created By Wassim RouGi #\n# And All Rights Reserved"+" "*10+"#\n# Fb: facebook.com/wassimkho"+" "*7+"#")
-print("*"*36)
 def test_number_of_adapters():
 	a = "airmon-ng | awk '{print $2}' | grep 'wlan' | wc -l"
 	a = os.popen(a).read()
